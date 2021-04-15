@@ -23,7 +23,7 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title text-center">Sign UP </h5>
-                <form class="form-signin" action="Signup.php" method="POST">
+                <form class="form-signin" action=" " method="POST">
                   
                   <div class="form-label-group">
                     <input name="username" type="text" id="inputUserame" class="form-control" placeholder="Username" required autofocus>

@@ -52,6 +52,7 @@ if(isset($_POST['register'])){
         if (mysqli_stmt_execute($stmt)) {
           # code...
           echo "Registered Successfully";
+          require('location: \mail\php_mail\sendemail.php ');
           header('location:login.php');
         }else{
           echo "<h4 style='color:red'>Something went wrong</h4>";
