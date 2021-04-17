@@ -1204,7 +1204,8 @@
 ========================================*/ 
 .hero-slider {
 	background: #fff;
-	overflow: hidden;
+	/*overflow: hidden;*/
+	background-image: url( 'images/shirt.jpg');
 }
 .hero-slider .single-slider {
 	height: auto;
@@ -1215,6 +1216,7 @@
     height: 510px;
 }
 .hero-slider .text-inner {
+	color: white;
 	
 }
 .hero-slider .hero-text {
@@ -1366,7 +1368,7 @@
 /* Hero Area 3 */
 .hero-area3{}
 .hero-area3 .big-content{
-	background-image: url('https://via.placeholder.com/850x530');
+	background-image: url('images/shirt.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;

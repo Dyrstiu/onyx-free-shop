@@ -26,7 +26,7 @@ function sendEmail($subject,$message,$to){
 
 	//config
 	$username = "westminsta@gmail.com";
-	$password = "!Justu4me";
+	$password = "";
 	//Instantiation and passing `true` enables exceptions
 	$mail = new PHPMailer(true);
 

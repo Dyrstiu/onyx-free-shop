@@ -46,7 +46,7 @@ if(isset($_POST['register'])){
         $param_username = $username;
         $param_email=$email;
         $param_password=$pwd;
-        $param_role= "customer";
+        $param_role= "Seller";
         
          
         if (mysqli_stmt_execute($stmt)) {
